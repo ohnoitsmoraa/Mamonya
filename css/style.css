@@ -1,4 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Sans+TC:wght@100..900&family=Playwrite+AU+VIC:wght@100..400&family=Playwrite+US+Trad:wght@100..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 header h1 {
     text-align: center;
-    text-decoration: dotted;
+    color: blueviolet;
+    font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+ nav ul{
+    display: flex;
+    flex-direction: row;
+justify-content: space-around;
+list-style-type: none;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+ body{ 
+    background-image: url("https://media.istockphoto.com/id/963458566/photo/online-internet-secure-payment-and-network-safe-communication-and-banking-concept-person-pay.webp?b=1&s=170667a&w=0&k=20&c=hY1gKC_XqrUOeG9iTX-s9DFfZlAtrBybLqIhNu1bRPQ="); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    font-family: "Lora", serif;
+} 
+#content{
+    font-family: "Playwrite AU VIC", cursive;
+display: flex;
+align-items: flex-start;
+justify-content: center;
+  height: 40vh;
+}
+#content p{
+    text-align: center;
+}
+ #body-section{
+    height: 50vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color:black;
+}
+#services{
+    width: 48vw;
+    height: 50vh;
+    position: absolute;
+}
+#services ul li{
+    margin-bottom: 70px;
+    font-size: 15px;
+}
+#services p{
+    font-size: 25px;
+}
+#contacts{
+    height: 50vh;
+    width: 48vw;
+    float: right;
+    justify-content: space-between;
+    display: flex;
+    
+}
+#contacts p{
+    font-size: 25px;
+    margin-bottom: 70px;
+}
+#body-section h1{
+    font-size: 75px;
+    text-decoration: underline;
+}
+#contacts a i{
+color:blue;
+display: flex;
+}
+#contacts a i:hover{
+color: aliceblue;
 }
